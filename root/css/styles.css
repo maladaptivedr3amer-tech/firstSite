@@ -1,10 +1,18 @@
 body {
+    color: #1b282b;
     font-family: sans-serif;
-    
+    line-height: 1.5;
+}
+footer {
+    color: #ffffff;
+    background-color: #22466c;
+    padding: 20px;
+    text-align: center;
 }
 h1 {
     color: #4676a9;
     font-size: 7rem;
+    line-height: 1.1;
     text-align: center;
 }
 h2 {
@@ -15,9 +23,6 @@ h2 {
 header {
     text-align: center;
 }
-footer {
-    color: #ffffff;
-    background-color: #22466c;
-    padding: 20px;
-    text-align: center;
+section {
+    margin-block: 60px;
 }
