@@ -33,3 +33,10 @@ header {
 section {
     margin-block: 60px;
 }
+.teal-bg {
+    background-color: #0b4a5a;
+    border: 5px solid #087a98;
+    color: #ffffff;
+    padding: 20px;
+    /* border-radius: 5px; */
+}
