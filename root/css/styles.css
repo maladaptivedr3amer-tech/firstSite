@@ -3,6 +3,16 @@
     box-sizing: border-box;
 }
 /* Styles for the body element */
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+a {
+    color: #2b930b;
+}
+a:hover, a:focus {
+    color: #1b282b;
+}
 body {
     color: #1b282b;
     font-family: sans-serif;
@@ -10,14 +20,10 @@ body {
     padding: 0px 200px;
 }
 footer {
-    color: #ffffff;
-    background-color: #22466c;
-    padding: 20px;
     text-align: center;
-    border: 5px solid #6e84cf;
 }
 h1 {
-    color: #4676a9;
+    /* color: #4676a9; */
     font-size: 5rem;
     line-height: 1.1;
     text-align: center;
@@ -33,10 +39,32 @@ header {
 section {
     margin-block: 60px;
 }
+.wrapper {
+    max-inline-size: 1000px;
+    margin: 0 auto;
+}
+ul {
+    list-style-type: circle;
+}
+.climber-bg {
+    color: #ffffff;
+    background-image: url("../images/simple-steps.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #087a98;
+    padding: 24px;
+}
 .teal-bg {
     background-color: #0b4a5a;
     border: 5px solid #087a98;
     color: #ffffff;
     padding: 20px;
     /* border-radius: 5px; */
+}
+.teal-bg strong {
+    color: #0ae2d0;
+}
+.teal-text {
+    color: #0b4a5a;
 }
