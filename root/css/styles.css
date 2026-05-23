@@ -1,17 +1,24 @@
+/* To clear the default margins and padding */
+* { 
+    box-sizing: border-box;
+}
+/* Styles for the body element */
 body {
     color: #1b282b;
     font-family: sans-serif;
     line-height: 1.5;
+    padding: 0px 200px;
 }
 footer {
     color: #ffffff;
     background-color: #22466c;
     padding: 20px;
     text-align: center;
+    border: 5px solid #6e84cf;
 }
 h1 {
     color: #4676a9;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 1.1;
     text-align: center;
 }
