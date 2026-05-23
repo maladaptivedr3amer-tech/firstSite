@@ -1,3 +1,23 @@
-body  {
-    background-color: grey;
+body {
+    font-family: sans-serif;
+    
+}
+h1 {
+    color: #4676a9;
+    font-size: 7rem;
+    text-align: center;
+}
+h2 {
+    color: #cb721c;
+    font-size: 2rem;
+    text-align: start;
+}
+header {
+    text-align: center;
+}
+footer {
+    color: #ffffff;
+    background-color: #22466c;
+    padding: 20px;
+    text-align: center;
 }
